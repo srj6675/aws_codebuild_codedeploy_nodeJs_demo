@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD App Push from V15 for npm install stage pipeline')
+  res.send('CICD App Push from V16 for npm install stage pipeline')
 })
 
 app.get('/status', (req, res) => {
